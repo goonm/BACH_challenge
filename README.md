@@ -24,6 +24,12 @@ Dataset can be downloaded in [[link]](https://iciar2018-challenge.grand-challeng
 
 We used three different model. The three models take a hierarchical form.
 
+**First model : Normal vs Rest (Benign, In situ, and Invasive) classifier**
+
+**Second model : Benign vs Malignant (In situ, Invasive) classifier**
+
+**Third model : In situ vs Invasive classifier**
+
 Second model task (Benign vs Malignant classifier) is very challenging.
 
 So we use external dataset (BISQUE, BreakHis) to enlarge our dataset.
