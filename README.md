@@ -14,7 +14,7 @@ Dataset can be downloaded in [[link]](https://iciar2018-challenge.grand-challeng
         │     ├──── normal_003.tif
         │     ├──── ...
         │
-        └── normal_train
+        └── benign_train
             ├──── benign_001.tif
             ├──── benign_001.tif
             ├──── benign_001.tif
