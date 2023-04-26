@@ -55,9 +55,22 @@ Augmentation : Random Horizontal Flip, Random Rotation, Random Scaling
 ## Original Image
 | Normal                            | Benign                        | In situ                            | Invasive                     |
 | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- |
-| ![](figure/normal_ori.png)   | ![](resfigureult/benign_ori.png)   | ![](figure/insitu_ori.png)   | ![](figure/invasive_ori.png)   |
+| ![](figure/normal_ori.png)   | ![](figure/benign_ori.png)   | ![](figure/insitu_ori.png)   | ![](figure/invasive_ori.png)   |
 
 ## Grad-CAM
 | Normal                            | Benign                        | In situ                            | Invasive                     |
 | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- |
 | ![](figure/normal_cam.png)   | ![](figure/benign_cam.png)   | ![](figure/insitu_cam.png)   | ![](figure/invasive_cam.png)   |
+
+# Run Example
+```
+Train
+$ cd code/BACH_challenge
+$ python3 train.py --stage First
+$ python3 train.py --stage Second
+$ python3 train.py --stage Third
+
+Test
+$ cd code/BACH_challenge
+$ python3 test.py --stage Test
+```
