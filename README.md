@@ -34,3 +34,20 @@ Second model task (Benign vs Malignant classifier) is very challenging.
 
 So we use external dataset (BISQUE, BreakHis) to enlarge our dataset.
 
+
+# Training
+
+Input Size : 224x224
+
+Batch Size : 4
+
+Number of epoch : 50
+
+Augmentation : Random Horizontal Flip, Random Rotation, Random Scaling
+
+
+# Result
+
+|            |            |Benign            |Insitu            |Invasive            |Normal            | 
+|------------|ACC---------|Pre---------------|Insitu            |Invasive            |Normal            | 
+|------------|ACC---------|------------------|Insitu            |Invasive            |Normal            |
