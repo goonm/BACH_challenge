@@ -22,6 +22,9 @@ Dataset can be downloaded in [[link]](https://iciar2018-challenge.grand-challeng
 
 ![](figure/workflow.jpg)
 
-Batch Size : 4
+We used three different model. The three models take a hierarchical form.
 
-Number of epoch : 300
+Second model task (Benign vs Malignant classifier) is very challenging.
+
+So we use external dataset (BISQUE, BreakHis) to enlarge our dataset.
+
