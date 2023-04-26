@@ -5,6 +5,8 @@ There are four classes (Normal, Benign, In situ, Invasive).
 
 Dataset can be downloaded in [[link]](https://iciar2018-challenge.grand-challenge.org/).
 
+Train data
+
     bach_data
         ├── normal_train
         │     ├──── normal_001.tif
@@ -17,6 +19,16 @@ Dataset can be downloaded in [[link]](https://iciar2018-challenge.grand-challeng
             ├──── benign_001.tif
             ├──── benign_001.tif
             ├──── ...
+
+Test data
+
+    bach_data
+        └── test
+              ├──── test_001.tif
+              ├──── test_002.tif
+              ├──── test_003.tif
+              ├──── ...
+
 
 # Network
 
