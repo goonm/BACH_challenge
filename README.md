@@ -48,16 +48,16 @@ Augmentation : Random Horizontal Flip, Random Rotation, Random Scaling
 
 # Result
 
-![](figure/table.jpg)
+![](figure/table.png)
 
 # Grad-CAM Result
 
 ## Original Image
 | Normal                            | Benign                        | In situ                            | Invasive                     |
 | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- |
-| ![](result/normal_ori.jpg)   | ![](result/benign_ori.jpg)   | ![](result/insitu_ori.jpg)   | ![](result/invasive_ori.jpg)   |
+| ![](figure/normal_ori.png)   | ![](resfigureult/benign_ori.png)   | ![](figure/insitu_ori.png)   | ![](figure/invasive_ori.png)   |
 
 ## Grad-CAM
 | Normal                            | Benign                        | In situ                            | Invasive                     |
 | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- |
-| ![](result/normal_cam.jpg)   | ![](result/benign_cam.jpg)   | ![](result/insitu_cam.jpg)   | ![](result/invasive_cam.jpg)   |
+| ![](figure/normal_cam.png)   | ![](figure/benign_cam.png)   | ![](figure/insitu_cam.png)   | ![](figure/invasive_cam.png)   |
